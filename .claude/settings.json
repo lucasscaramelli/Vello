@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "post_tool_use": [
+    "PostToolUse": [
       {
         "matcher": "Write|Edit",
         "hooks": [
