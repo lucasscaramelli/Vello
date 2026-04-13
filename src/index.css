@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vello-bg: #0F1419;
+  --color-vello-card: #1C2128;
+  --color-vello-accent: #C8E946;
+  --color-vello-accent-hover: #b5d33f;
+  --color-vello-border: #2D333B;
+  --color-vello-text: #FFFFFF;
+  --color-vello-muted: #8B949E;
+  --color-vello-success: #1B998B;
+  --color-vello-warning: #E88D40;
+  --color-vello-error: #E05252;
+}
+
+@layer base {
+  body {
+    @apply bg-vello-bg text-vello-text antialiased;
+  }
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2D333B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8B949E;
+}

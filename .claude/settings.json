@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "post_tool_use": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /c/Users/lucas/Documents/Vello && git add -A && git diff --cached --quiet || git commit -m \"chore: auto-sync changes\" && git push origin main"
+          }
+        ]
+      }
+    ]
+  }
+}
