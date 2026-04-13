@@ -7,7 +7,7 @@ export function Dashboard() {
 
   const kpis = [
     { label: 'Ocupação Hoje', value: '78%', trend: '+5%', positive: true, icon: Users },
-    { label: 'Receita do Mês', value: 'R$ 45.230', trend: '+12%', positive: true, icon: TrendingUp },
+    { label: 'Receita do Mês', value: 'R$ 50.000', trend: '+12%', positive: true, icon: TrendingUp },
     { label: 'Reservas do Mês', value: '342', trend: '+8%', positive: true, icon: CalendarCheck },
     { label: 'No-shows', value: '12', trend: '-2%', positive: true, icon: AlertCircle },
   ];
