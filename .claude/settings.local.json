@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git:*)",
+      "Skill(update-config)",
+      "Bash(bash -c 'git add -A && git diff --cached --quiet || \\(git commit -m \"chore: auto-sync changes\" && git push origin main\\)')"
+    ]
+  }
+}
